@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    tools:context=".activities.activities.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:fontFamily="@font/font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/game_over"
+            android:textColor="#F60202"
+            android:textSize="65sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="52dp"
+
+        android:orientation="vertical">
+
+
+            <TextView
+                android:fontFamily="@font/font"
+                android:id="@+id/textViewResult"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/score_result"
+                android:layout_margin="10dp"
+                android:background="@drawable/back_view"
+                android:textColor="#2196F3"
+                android:textSize="33sp" />
+
+
+        <TextView
+            android:fontFamily="@font/font"
+            android:id="@+id/textViewRecord"
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/back_view2"
+            android:gravity="center"
+            android:text="@string/record"
+            android:textStyle="bold"
+            android:textColor="#FF0000"
+            android:textSize="33sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:fontFamily="@font/ubuntumedium"
+            android:layout_marginLeft="45dp"
+            android:id="@+id/btnAgain"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:background="@drawable/result_back"
+            android:text="@string/try_again"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:layout_marginStart="45dp"
+            tools:ignore="ButtonStyle" />
+
+
+        <Button
+            android:fontFamily="@font/ubuntumedium"
+            android:id="@+id/btnExit"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/extback"
+            android:text="@string/exit"
+            android:layout_marginLeft="2dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:layout_marginStart="2dp"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MathTime</string>
+    <string name="score">Score</string>
+    <string name="_0">0</string>
+    <string name="life">Life</string>
+    <string name="_3">3</string>
+    <string name="time">Time</string>
+    <string name="_60">60</string>
+    <string name="textview">455</string>
+    <string name="okay">OKAY</string>
+    <string name="pass">PASS</string>
+    <string name="mathematical_game">MATHEMATICAL GAME</string>
+    <string name="textview1">455 + 95</string>
+    <string name="todo">TODO</string>
+    <string name="game_over">Game Over</string>
+    <string name="score_result">Score:</string>
+    <string name="record">Record:</string>
+    <string name="try_again">try agaIn</string>
+    <string name="exit">exIt</string>
+</resources>
